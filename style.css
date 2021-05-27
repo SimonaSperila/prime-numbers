@@ -1,0 +1,36 @@
+.clearfix:after {
+    clear: both;
+}
+.wrapper {
+    width:900px;
+    height:700px;
+    border:1px solid blue;
+}
+.left{
+    float:left;
+    width:600px;
+    height:598px;
+    border-right:2px solid blue;
+}
+.right{
+    float:right;
+    width:298px;
+    height:598px;
+}
+.bottom{
+    float:left;
+    width:100%;
+    border-top:2px solid blue;
+    height:100px;
+}
+input {
+    background: #6fbef1;
+    border: 1px solid #d1d0d0;
+    cursor: pointer;
+    height: 10%;
+    width: 10%;
+}
+input.current {
+    background:red;
+    color:#fff;
+}
